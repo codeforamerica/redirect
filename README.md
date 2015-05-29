@@ -3,6 +3,8 @@ Redirect
 
 We may be losing access to our Bit.ly account soon. This simple app is the beginnings of a way to seamlessly continue serving our shortlinks if that happens.
 
+**NOTE: Pushing to master currently auto-deploys to Heroku while we build testing. So be careful.**
+
 # What it does
 
 Redirect reads links in redirects.json and redirects visitors to the right place. 
