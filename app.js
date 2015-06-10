@@ -16,6 +16,13 @@ app.get('/', function(req,res){
   });
 });
 
+app.get('/a/list', function(req,res){
+  res.render('list', {
+    error: false,
+    redirects: redirects
+  });
+});
+
 app.get('/:wanted', function(req,res){
   if (typeof(redirects[req.params.wanted]) === 'undefined') {
     // I don't know that link
