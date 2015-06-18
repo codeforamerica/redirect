@@ -66,11 +66,11 @@
   <div class="layout-semibreve">
     <h3>List of available redirects</h3>
     <p>Enter a URL or keyword to search through available redirects:</p>
-  
+    <%- JSON.stringify(redirects); %>
     <div id="redirectList">
       <input class="search" placeholder="Enter your search term">
       <ul class="list list-no-bullets">
-      <% for (var redirect in redirects) { %>
+      <% for (redirect in redirects) { %>
         <li class="redirect">
           <p>
             <span class="redirect-label">Source: </span>
