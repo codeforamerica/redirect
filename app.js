@@ -4,6 +4,7 @@ var express = require('express'),
     redirects = require('./redirects.json'),
     app = express()
     ;
+    app.locals._ = _;
 
 var startApp = function(cb) {
   // Set up our views
