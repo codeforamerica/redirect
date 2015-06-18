@@ -12,12 +12,6 @@ app.set('views', __dirname + '/views');
 
 app.get('/', function(req,res){
   res.render('index', {
-    error: false
-  });
-});
-
-app.get('/a/list', function(req,res){
-  res.render('list', {
     error: false,
     redirects: redirects
   });
