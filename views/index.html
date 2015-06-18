@@ -11,6 +11,44 @@
       text-transform: none;
       letter-spacing: -0.05em;
     }
+    h3 {
+      text-transform: none;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+    .redirect-list {
+      font-size: 0.8em;
+    }
+    .list {
+      margin-top: 2em;
+    }
+    .redirect + .redirect {
+      margin-top: 1em;
+    }
+    .redirect {
+      padding-left: 40px;
+      background-color: rgba(0,0,0,0.05);
+      overflow-x: scroll;
+    }
+    .redirect p {
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+    .redirect-label {
+      text-transform: uppercase;
+      font-size: 0.8em;
+      color: rgba(0,0,0,0.4);
+    }
+    .redirect-link a {
+      color: black;
+    }
+    .redirect-link a:hover {
+      text-decoration: none;
+      border-bottom-width: 5px;
+    }
+    input.search {
+      width: 100%;
+    }
   </style>
 </head>
 <body>
@@ -25,5 +63,45 @@
     <p>This is a simple tool provided by <a href="https://www.codeforamerica.org">Code for America</a> to serve shortlinks. All links are held in the <a href="https://github.com/codeforamerica/redirect">Github repo</a>.</p>
     <a href="https://github.com/codeforamerica/redirect" class="button">Create a shortlink</a>
   </div>
+  <div class="layout-semibreve">
+    <h3>List of available redirects</h3>
+    <p>Enter a URL or keyword to search through available redirects:</p>
+  
+    <div id="redirectList">
+      <input class="search" placeholder="Enter your search term">
+      <ul class="list list-no-bullets">
+      <% for (var redirect in redirects) { %>
+        <li class="redirect">
+          <p>
+            <span class="redirect-label">Source: </span>
+            <span class="source redirect-link"><a href="http://c4a.me/<%- redirect %>">http://c4a.me/<%- redirect %></a></span>
+          </p>
+          <p>
+            <span class="redirect-label">Destination: </span>
+            <span class="destination redirect-link"><a href="<%- redirects[redirect] %>"><%- redirects[redirect] %></a></span>
+          </p>
+        </li>
+      <% } %>
+      </ul>
+    </div>
+
+  </div>
 </body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
+<script>
+  var redirects = _.map(<%- JSON.stringify(redirects) %>, function(val,key){
+    var response = {};
+    response["source"] = "http://c4a.me/" + key;
+    response["destination"] = val;
+    return response;
+  });
+
+  var redirectList = new List(
+    "redirectList",
+    { valueNames: [ "source", "destination" ] }
+  );
+</script>
+
 </html>
