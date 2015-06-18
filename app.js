@@ -37,7 +37,7 @@ var startApp = function(cb) {
     var host = server.address().address;
     var port = server.address().port;
     console.log('App listening at port %s', port);
-    cb(null,host,port);
+    cb(null,host,port,this);
   });
 }
 
