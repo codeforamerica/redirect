@@ -31,6 +31,20 @@ app(function(err,host,port,server){
     },
     function(cb){
 
+      request(server)
+        .get('/.well-known/status')
+        .expect(200)
+        .end(function(err,res){
+          assert.doesNotThrow(
+            function(){ if (err) throw err; },
+            "The /.well-know/status"
+          );
+          cb();
+        });
+
+    },
+    function(cb){
+
       async.forEachOfSeries(redirects, function(val,key,cb){
         request(server)
           .get('/'+key)
