@@ -1,5 +1,4 @@
-var assert = require('assert'),
-    app = require('../app');
+var assert = require('assert');
 
 // Check that redirects are valid JSON
 assert.doesNotThrow(
