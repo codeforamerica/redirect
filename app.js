@@ -42,7 +42,7 @@ var startApp = function(cb) {
   app.get('/.well-known/status', function(req,res){
     res.json({
       status: "ok",
-      updated: new Date().getTime(),
+      updated: Math.floor(new Date() / 1000),
       dependencies: [],
       resources: {}
     });
