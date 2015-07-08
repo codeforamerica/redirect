@@ -70,15 +70,15 @@
       <input class="search" placeholder="Enter your search term">
       <ul class="list list-no-bullets">
       <% if (typeof(redirects) !== "undefined"){ %>
-        <% _.each(redirects, function(val,key){ %>
+        <% _.each(redirects, function(redirect){ %>
           <li class="redirect">
             <p>
               <span class="redirect-label">Source: </span>
-              <span class="source redirect-link"><a href="http://c4a.me/<%- key %>">http://c4a.me/<%- key %></a></span>
+              <span class="source redirect-link"><a href="http://c4a.me/<%- redirect['source'] %>">http://c4a.me/<%- redirect['source'] %></a></span>
             </p>
             <p>
               <span class="redirect-label">Destination: </span>
-              <span class="destination redirect-link"><a href="<%- val %>"><%- val %></a></span>
+              <span class="destination redirect-link"><a href="<%- redirect['destination'] %>"><%- redirect['destination'] %></a></span>
             </p>
           </li>
         <% }); %>
@@ -93,17 +93,18 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
 <script>
   <% if (typeof(redirects) !== "undefined"){ %>
-    var redirects = _.map(<%- JSON.stringify(redirects) %>, function(val,key){
-      var response = {};
-      response["source"] = "http://c4a.me/" + key;
-      response["destination"] = val;
-      return response;
-    });
+    var redirects = <%- JSON.stringify(redirects) %>;
+    // var redirects = _.map(<%- JSON.stringify(redirects) %>, function(val,key){
+    //   var response = {};
+    //   response["source"] = "http://c4a.me/" + key;
+    //   response["destination"] = val;
+    //   return response;
+    // });
   <% } %>
 
   var redirectList = new List(
     "redirectList",
-    { 
+    {
       valueNames: [ "source", "destination" ],
       page: 2000
     }

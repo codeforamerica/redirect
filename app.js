@@ -1,7 +1,7 @@
 var express = require('express'),
     _ = require('underscore'),
     cons = require('consolidate'),
-    redirects = require('./redirects.json'),
+    read = require('./read');
     app = express()
     ;
     app.locals._ = _;
@@ -13,24 +13,30 @@ var startApp = function(cb) {
   app.set('views', __dirname + '/views');
 
   app.get('/', function(req,res){
-    res.render('index', {
-      error: false,
-      redirects: redirects
+    read.csv('/redirects.csv', function(err,data){
+      res.render('index', {
+        error: false,
+        redirects: data
+      });
     });
   });
 
   app.get('/:wanted', function(req,res){
-    if (typeof(redirects[req.params.wanted]) === 'undefined') {
-      // I don't know that link
-      var request_url = req.protocol + '://' + req.get('host') + req.originalUrl;
-      res.render('index', {
-        error: true,
-        request_url: request_url
-      });
-    } else {
-      // Send them to the right place
-      res.redirect(301, redirects[req.params.wanted]);
-    }
+    read.get(req.params.wanted, '/redirects.csv', function(err,url,data){
+      if (err) throw err;
+      if (typeof(url) === "string"){
+        // Send them to the right place
+        res.redirect(301, url);
+      } else {
+        // I don't know that link
+        var request_url = req.protocol + '://' + req.get('host') + req.originalUrl;
+        res.render('index', {
+          error: true,
+          redirects: data,
+          request_url: request_url
+        });
+      }
+    });
   });
 
   app.get('/.well-known/status', function(req,res){
