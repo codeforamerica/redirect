@@ -25,7 +25,7 @@ assert.doesNotThrow(
   function(){
     fs.readFile(redirectsFile, function(err,file){
       if (err) throw err;
-      csv.parse(file.toString(), {columns: true}, function(err,data){
+      csv.parse(file.toString(), {columns: true, delimiter: '|'}, function(err,data){
         if (err) throw err;
         console.log('✓ redirects.csv is a valid csv we can parse');
       });

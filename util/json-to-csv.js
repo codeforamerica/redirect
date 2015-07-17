@@ -9,6 +9,9 @@
  * Assumes there is a file in the root directory called redirects.json
  * with entries and a file in the root called redirects.csv that is empty
  * and will be overwritten.
+ *
+ * Because we're letting humans edit this, we'll use a pipe | instead of a
+ * comma as a delimiter in each field.
  */
 
  var path = require('path'),
@@ -32,11 +35,11 @@ try {
 var wstream = fs.createWriteStream(dir + 'redirects.csv');
 
 // First, write our headers, which will be 'source,destination'
-wstream.write('source,destination\n');
+wstream.write('source|destination\n');
 
 // Write each redirect
 _.each(redirectsJSON, function(val,key){
-    wstream.write(key+','+val+'\n');
+    wstream.write(key+'|'+val+'\n');
     redirectCount++;
 })
 
