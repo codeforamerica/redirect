@@ -48,7 +48,7 @@ app(function(err,host,port,server){
       async.forEachOfSeries(redirects, function(val,key,cb){
         request(server)
           .get('/'+key)
-          .expect(301)
+          .expect(302)
           .end(function(err,res){
             assert.doesNotThrow(
               function(){ if (err) throw err; },

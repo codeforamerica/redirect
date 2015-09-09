@@ -29,7 +29,7 @@ var startApp = function(cb) {
       });
     } else {
       // Send them to the right place
-      res.redirect(301, redirects[req.params.wanted]);
+      res.redirect(302, redirects[req.params.wanted]);
     }
   });
 
