@@ -3,9 +3,9 @@
 Redirect
 =========
 
-We may be losing access to our Bit.ly account soon. This simple app is the beginnings of a way to seamlessly continue serving our shortlinks if that happens.
+This is a simple Node app that allows us to serve shortlinks that redirect places and retain ownership of our data. We run it on Heroku and serve links at [http://c4a.me/](http://c4a.me/). This software is in beta: it works pretty well, serves our needs, but could use some improvement. See our [repo issues](https://github.com/codeforamerica/redirect/issues/) if you'd like to help improve it.
 
-**NOTE: Pushing to master currently auto-deploys to Heroku while we build testing. So be careful.**
+**Note: The master branch of this repo automatically deploys to Heroku if it passes tests.**
 
 # What it does
 
@@ -28,10 +28,15 @@ $ npm install
 $ npm start
 ```
 
-# Features going forward
+# How to run tests
 
-If we need to send this into production, we'll need: 
+```
+$ npm test
+```
 
-* Robust testing, to make sure this is always working
-* Error logging and reporting, so we can know if it's up or down and when it fails
-* Analytics reporting -- we should ping Google Analytics or some other service when requests are made to track usage and referrers
+Tests currently check to make sure the `redirects.json` file is valid JSON, and that the application serves redirects for each line in the file correctly.
+
+# Licsense
+
+This software is Copyright (c) 2015 Code for America, and released under the MIT License. Please see `LICENSE` for details.
+
