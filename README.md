@@ -36,7 +36,7 @@ $ npm test
 
 Tests currently check to make sure the `redirects.json` file is valid JSON, and that the application serves redirects for each line in the file correctly.
 
-# Licsense
+# License
 
 This software is Copyright (c) 2015 Code for America, and released under the MIT License. Please see `LICENSE` for details.
 
