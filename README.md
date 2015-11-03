@@ -15,7 +15,7 @@ Redirect reads links in redirects.json and redirects visitors to the right place
 
 Branch or fork, add a new key/value pair in `redirects.json` and submit a Pull Request.
 
-# What is uses
+# What it uses
 
 * [Node](https://github.com/codeforamerica/howto/blob/master/Node.js.md)
 
