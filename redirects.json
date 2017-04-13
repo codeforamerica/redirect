@@ -1619,5 +1619,6 @@
   "2GzRP": "https://docs.google.com/fileview?id=0B6h_rb0gecT1YmU2YTQ3ZmUtMWNhOC00ZDJhLTk2MDctODBhNDViMDZmNjQ3&hl=en",
   "brigade-hours": "https://cfa.typeform.com/to/XcfQ8H",
   "codeforvegas-donate": "https://secure.codeforamerica.org/page/contribute/default?brigade=Code%20for%20Vegas",
-  "give-to-lex": "https://secure.codeforamerica.org/page/contribute/default?brigade=OpenLexington"
+  "give-to-lex": "https://secure.codeforamerica.org/page/contribute/default?brigade=OpenLexington",
+  "mdhhs": "https://michigan-benefits-prod.herokuapp.com"
 }
