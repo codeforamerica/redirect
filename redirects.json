@@ -1632,5 +1632,6 @@
   "codeforvegas-donate": "https://secure.codeforamerica.org/page/contribute/default?brigade=Code%20for%20Vegas",
   "give-to-lex": "https://secure.codeforamerica.org/page/contribute/default?brigade=OpenLexington",
   "mdhhs": "https://michigan-benefits-prod.herokuapp.com",
-  "rr": "https://rootandrebound.github.io/roadmap-to-html/"
+  "rr": "https://rootandrebound.github.io/roadmap-to-html/",
+  "brigades": "https://docs.google.com/spreadsheets/d/1zglhAKDUNnvKindAhb6K_DJaLQ_myRYGKvE2DTYolAQ/edit#gid=0"
 }
