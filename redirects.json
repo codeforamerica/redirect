@@ -1,5 +1,4 @@
 {
-  "a": "https://d73ff43b.ngrok.io/combined",
   "testingitout": "https://google.com",
   "rover-node": "https://gist.github.com/tmaybe/1c23f58f33c0040853556dee4051d752",
   "rover-ruby": "https://gist.github.com/daguar/bad5ecdc2ca311bbd33b053ea332aba4",
@@ -1633,7 +1632,6 @@
   "codeforvegas-donate": "https://secure.codeforamerica.org/page/contribute/default?brigade=Code%20for%20Vegas",
   "give-to-lex": "https://secure.codeforamerica.org/page/contribute/default?brigade=OpenLexington",
   "mdhhs": "https://michigan-benefits-prod.herokuapp.com",
-  "rr": "https://rootandrebound.github.io/roadmap-to-html/",
   "brigades": "https://docs.google.com/spreadsheets/d/1zglhAKDUNnvKindAhb6K_DJaLQ_myRYGKvE2DTYolAQ/edit#gid=0",
   "handbook": "https://docs.google.com/document/d/16CL9TdmWV0hDY6c85PwtzUcu1VjeSeiDFD2CbtLKf7s/edit",
   "playbook": "https://docs.google.com/document/d/19bN5RWK5nQTpz0mHUViHrzHiommBUAMSztwNRzUcxYo/edit",
