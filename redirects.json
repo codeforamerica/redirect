@@ -1644,5 +1644,6 @@
   "sxsw": "https://brigade.codeforamerica.org/?utm_source=sxsw-shortlink&utm_medium=shortlink&utm_campaign=sxsw",
   "nac": "https://sites.google.com/codeforcharlotte.org/nac/home",
   "coc": "https://github.com/codeforamerica/codeofconduct",
-  "deliverydriven": "https://www.codeforamerica.org/newsletter?utm_source=summit-shortlink&utm_medium=shortlink&utm_campaign=delivery-driven"
+  "deliverydriven": "https://www.codeforamerica.org/newsletter?utm_source=summit-shortlink&utm_medium=shortlink&utm_campaign=delivery-driven",
+  "closingthegap": "http://s3-us-west-1.amazonaws.com/codeforamerica-cms1/documents/Closing-the-Delivery-Gap.pdf"
 }
