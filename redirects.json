@@ -1,5 +1,4 @@
 {
-  "changes-hfc": "https://www.reportchangescolorado.org/?source=hungerfree",
   "testingitout": "https://google.com",
   "rover-node": "https://gist.github.com/tmaybe/1c23f58f33c0040853556dee4051d752",
   "rover-ruby": "https://gist.github.com/daguar/bad5ecdc2ca311bbd33b053ea332aba4",
@@ -1652,5 +1651,7 @@
   "research-consent": "https://docs.google.com/forms/d/e/1FAIpQLSdwIqHSKV24EdIuhstpNQXiW9kfpkIGzsB1Qcv9bLhgcH9lBg/viewform",
   "digitaloutreach": "http://s3-us-west-1.amazonaws.com/codeforamerica-cms1/documents/CfA-Digital-Outreach-Playbook-2018.pdf",
   "austin": "https://jobs.codeforamerica.org/job-postings/in/TX/austin?utm_campaign=2018_austin_event&utm_source=event&utm_medium=direct",
-  "congress": "https://www.codeforamerica.org/brigade-congress#agenda"
+  "congress": "https://www.codeforamerica.org/brigade-congress#agenda",
+  "changes-hfc": "https://www.reportchangescolorado.org/?source=hungerfree",
+  "changes-arlobby": "https://www.reportchangescolorado.org/?source=arapahoe-lobby",
 }
