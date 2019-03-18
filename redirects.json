@@ -1668,5 +1668,8 @@
   "mi-report-appendix": "https://drive.google.com/drive/folders/18MyRj5s_mqe9Ee695zYUxVWwViJL_Ymv?usp=sharing",
   "foodbank": "https://alaskabenefits.org/?utm_source=foodbank",
   "foodbank-client": "https://alaskabenefits.org/?utm_source=foodbank-client",
-  "barrierstocalfresh": "http://s3-us-west-1.amazonaws.com/codeforamerica-cms1/documents/Barriers-to-CalFresh-Report_Code-for-America_February-2019.pdf"
+  "barrierstocalfresh": "http://s3-us-west-1.amazonaws.com/codeforamerica-cms1/documents/Barriers-to-CalFresh-Report_Code-for-America_February-2019.pdf",
+  "pitkin": "https://www.reportchangescolorado.org/?source=pitkin",
+  "garfield": "https://www.reportchangescolorado.org/?source=garfield",
+  "denver": "https://www.reportchangescolorado.org/?source=denver"
 }
