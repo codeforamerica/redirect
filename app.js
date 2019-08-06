@@ -1,6 +1,7 @@
 var express = require('express'),
     _ = require('underscore'),
     cons = require('consolidate'),
+    analytics = require('./analytics'),
     redirects = require('./redirects.json'),
     app = express()
     ;
@@ -28,6 +29,7 @@ var startApp = function(cb) {
         request_url: request_url
       });
     } else {
+      analytics.trackRedirect(req);
       // Send them to the right place
       res.redirect(302, encodeURI(redirects[req.params.wanted]));
     }
