@@ -20,6 +20,11 @@ var startApp = function(cb) {
     });
   });
 
+  app.get('/robots.txt', function(req, res) {
+    res.set('Content-Type', 'text/plain');
+    res.send('User-agent: *\nDisallow: /\n');
+  });
+
   app.get('/:wanted', function(req,res){
     if (typeof(redirects[req.params.wanted]) === 'undefined') {
       // I don't know that link
