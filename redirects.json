@@ -1701,5 +1701,7 @@
   "taxhelp": "https://www.getyourrefund.org?s=gcftext",
   "kpocen": "https://www.getcalfresh.org?source=kp-text-oc-en",
   "kpoces": "https://www.getcalfresh.org/es?source=kp-text-oc-es",
-  "expungementmap": "http://s3-us-west-1.amazonaws.com/codeforamerica-cms1/documents/CodeForAmerica-ExpungementJourneyMap.pdf"
+  "expungementmap": "http://s3-us-west-1.amazonaws.com/codeforamerica-cms1/documents/CodeForAmerica-ExpungementJourneyMap.pdf",
+  "consent-form": "http://s3-us-west-1.amazonaws.com/codeforamerica-cms1/documents/CodeForAmericaSimpleConsentForm.pdf",
+  "consent-form-template": "http://s3-us-west-1.amazonaws.com/codeforamerica-cms1/documents/ConsentFormTemplate.docx"
 }
