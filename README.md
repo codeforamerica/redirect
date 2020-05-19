@@ -18,6 +18,7 @@ Branch or fork, add a new key/value pair in `redirects.json` and submit a Pull R
 # What it uses
 
 * [Node](https://github.com/codeforamerica/howto/blob/master/Node.js.md)
+* Redis (for analytics)
 
 # How to install and run locally
 
