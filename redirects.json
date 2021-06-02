@@ -1723,5 +1723,5 @@
   "expungementmap": "http://s3-us-west-1.amazonaws.com/codeforamerica-cms1/documents/CodeForAmerica-ExpungementJourneyMap.pdf",
   "consent-form": "http://s3-us-west-1.amazonaws.com/codeforamerica-cms1/documents/CodeForAmericaSimpleConsentForm.pdf",
   "consent-form-template": "http://s3-us-west-1.amazonaws.com/codeforamerica-cms1/documents/ConsentFormTemplate.docx",
-  "vita-session": "https://calendly.com/meetbilly/info-sessions-national-tax-justice-service-team-national-vita-site"
+  "vita-session": "https://calendly.com/meetbilly/gyrvitasession"
 }
