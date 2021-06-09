@@ -1723,5 +1723,7 @@
   "expungementmap": "http://s3-us-west-1.amazonaws.com/codeforamerica-cms1/documents/CodeForAmerica-ExpungementJourneyMap.pdf",
   "consent-form": "http://s3-us-west-1.amazonaws.com/codeforamerica-cms1/documents/CodeForAmericaSimpleConsentForm.pdf",
   "consent-form-template": "http://s3-us-west-1.amazonaws.com/codeforamerica-cms1/documents/ConsentFormTemplate.docx",
-  "vita-session": "https://calendly.com/meetbilly/gyrvitasession"
+  "vita-session": "https://calendly.com/meetbilly/gyrvitasession",
+  "gyrnationalsite": "https://www.notion.so/cfa/GetYourRefund-National-VITA-Site-Volunteer-Onboarding-dc0e0fb939804eb3b770ed502afc91fe",
+  "gyrnttsignup": "https://airtable.com/shrPLfslL3OG2gJ7N"
 }
