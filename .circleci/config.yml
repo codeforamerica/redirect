@@ -3,9 +3,8 @@
 version: 2.1
 
 orbs:
-  # The Node.js orb contains a set of prepackaged CircleCI configuration you can utilize
   node: circleci/node@4.1
-  heroku: circleci/heroku@0.0.10. # Invoke the Heroku orb
+  heroku: circleci/heroku@1.2.6
 
 workflows:
   sample: 
