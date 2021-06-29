@@ -4,21 +4,21 @@ version: 2.1
 
 orbs:
   node: circleci/node@4.1
-  heroku: circleci/heroku@1.2.6
+#  heroku: circleci/heroku@1.2.6
 
 workflows:
-  sample: 
+  default: 
     jobs:
       - build-and-test
-  heroku_deploy:
-    jobs:
-      - build-and-test
-      - heroku/deploy-via-git: # Use the pre-configured job, deploy-via-git
-          requires:
-            - build-and-test
-          filters:
-            branches:
-              only: master
+#  heroku_deploy:
+#    jobs:
+#      - build-and-test
+#      - heroku/deploy-via-git: # Use the pre-configured job, deploy-via-git
+#          requires:
+#            - build-and-test
+#          filters:
+#            branches:
+#              only: master
 
 jobs:
   build-and-test:  
