@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/codeforamerica/redirect.svg?branch=master)](https://travis-ci.org/codeforamerica/redirect)
-
 Redirect
 =========
 
