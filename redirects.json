@@ -1745,6 +1745,7 @@
   "logic-model": "https://docs.google.com/document/d/1QgPTUhxnrvxw-Fi1i-pdYfJHBXyP3_LxL00YyEcnZ64/edit",
   "projectuu": "https://codeforamerica.org/projectuu",
   "summithelpdesk": "https://docs.google.com/forms/d/e/1FAIpQLSc8iiDIyMFOi3kU3BT8NWkTOIFG3FsYs69umbrD0eGGw81Btg/viewform",
+  "test-redirect": "https://codeforamerica.org",
   "gyr-needsdochelp": "https://www.getyourrefund.org/en/hub/clients?order=asc&column=last_outgoing_communication_at&status=intake_needs_doc_help&year=&vita_partners=&flagged=true&assigned_user_id=&unassigned=true&last_contact=&service_type=online_intake&language=&greetable=true&search=",
   "getctc-holds": "https://www.getyourrefund.org/en/hub/clients?order=asc&column=last_outgoing_communication_at&status=file_hold&year=&vita_partners=&flagged=true&assigned_user_id=&unassigned=true&last_contact=&service_type=&language=&ctc_client=true&search="
 }
