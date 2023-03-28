@@ -1751,5 +1751,6 @@
   "getctc-holds": "https://www.getyourrefund.org/en/hub/clients?order=asc&column=last_outgoing_communication_at&status=file_hold&year=&vita_partners=&flagged=true&assigned_user_id=&unassigned=true&last_contact=&service_type=&language=&ctc_client=true&search=",
   "learningagenda": "https://airtable.com/app5rQDDkPQwqgDjz/tblPUXOv7zC7hjpCQ/viwSf2DRsrT0PRGP9?blocks=hide",
   "sa-ready": "https://forms.office.com/g/BRFu1AtBmw",
-  "learningagendaform": "https://airtable.com/shrfbm6zzc4z9IQOG"
+  "learningagendaform": "https://airtable.com/shrfbm6zzc4z9IQOG",
+  "gleanfaq": "https://docs.google.com/document/d/112AosLcFj7p_elV9oBJUwNweb3t1_h9psdyMJ78r_J4/edit?usp=sharing"
 }
