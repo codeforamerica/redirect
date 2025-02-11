@@ -1481,8 +1481,8 @@
   "shelbyoyreport": "https://drive.google.com/file/d/1r0hQxnlvTgI9sIPR_3n-mnAg2ZDSUpA6/view",
   "li-cityofabq": "https://cfa.notion.site/ABQ-End-of-engagement-package-12364e2879ff4ca6b8057f18fbb01f62",
   "li-homewise": "https://cfa.notion.site/Homewise-End-of-engagement-package-bab0f0bf0bd441c2886c70ec336b0d38",
-  "child-credit-email": "https://directfile.irs.gov?utm_source=National-Nonprofit&utm_medium=email&utm_campaign=Cfa84&utm_id=directfile",
-  "child-credit-sms": "https://directfile.irs.gov?utm_source=National-Nonprofit&utm_medium=sms&utm_campaign=Cfa84&utm_id=directfile",
-  "direct-file-email": "https://directfile.irs.gov?utm_source=National-Nonprofit&utm_medium=email&utm_campaign=Cfa94&utm_id=directfile",
-  "direct-file-sms": "https://directfile.irs.gov?utm_source=National-Nonprofit&utm_medium=sms&utm_campaign=Cfa94&utm_id=directfile"
+  "irs-direct-file-ctc-email": "https://directfile.irs.gov?utm_source=National-Nonprofit&utm_medium=email&utm_campaign=Cfa84&utm_id=directfile",
+  "irs-direct-file-ctc-sms": "https://directfile.irs.gov?utm_source=National-Nonprofit&utm_medium=sms&utm_campaign=Cfa84&utm_id=directfile",
+  "irs-direct-file-email": "https://directfile.irs.gov?utm_source=National-Nonprofit&utm_medium=email&utm_campaign=Cfa94&utm_id=directfile",
+  "irs-direct-file-sms": "https://directfile.irs.gov?utm_source=National-Nonprofit&utm_medium=sms&utm_campaign=Cfa94&utm_id=directfile"
 }
