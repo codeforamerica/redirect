@@ -1485,5 +1485,6 @@
   "irs-direct-file-ctc-sms": "https://directfile.irs.gov?utm_source=National-Nonprofit&utm_medium=sms&utm_campaign=Cfa84&utm_id=directfile",
   "irs-direct-file-email": "https://directfile.irs.gov?utm_source=National-Nonprofit&utm_medium=email&utm_campaign=Cfa94&utm_id=directfile",
   "irs-direct-file-sms": "https://directfile.irs.gov?utm_source=National-Nonprofit&utm_medium=sms&utm_campaign=Cfa94&utm_id=directfile",
-  "pa-snap-survey": "https://codeforamerica.co1.qualtrics.com/jfe/form/SV_3mDwaqPQOfSIWl8"
+  "pa-snap-survey": "https://codeforamerica.co1.qualtrics.com/jfe/form/SV_3mDwaqPQOfSIWl8",
+  "pa-narrative-tool-terms": "https://docs.google.com/document/d/1ptXpYfnOEl7gyb3uTEI0A__wNJSIegLNflknEfIIGT4/edit"
 }
